@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Pandey | B.Tech CSE Student & Full Stack Developer</title>
+    <meta name="description" content="Aditya Pandey is a B.Tech CSE student specializing in full stack development, AI/ML, and creative web applications. View projects, skills, and credentials.">
+    <meta name="keywords" content="Aditya Pandey, Computer Science, Full Stack Developer, Web Development, Portfolio, B.Tech, AI, ML, JavaScript, React, Python">
+    <meta name="author" content="Aditya Pandey">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/code.svg" type="image/svg+xml">
+    
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Custom styles -->
+
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Aditya Pandey",
+      "url": "https://adityapandey.dev",
+      "image": "https://github.com/aditya2006p.png",
+      "sameAs": [
+        "https://www.linkedin.com/in/aditya2006p/",
+        "https://github.com/aditya2006p",
+        "https://leetcode.com/u/Aditya2006p/"
+      ],
+      "jobTitle": "B.Tech Student & Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Graphic Era Hill University"
+      },
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Nirmala Convent Sr. Sec. School, Kathgodam"
+      },
+      "knowsAbout": [
+        "Full Stack Development",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Python",
+        "Artificial Intelligence",
+        "Machine Learning"
+      ]
+    }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-white shadow-md py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <a href="#" class="flex items-center space-x-2">
+                <span class="text-xl font-bold gradient-text">Aditya Pandey</span>
+            </a>
+            
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="text-gray-600 hover:text-indigo-600 transition duration-300">About</a>
+                <a href="#skills" class="text-gray-600 hover:text-indigo-600 transition duration-300">Skills</a>
+                <a href="#education" class="text-gray-600 hover:text-indigo-600 transition duration-300">Education</a>
+                <a href="#projects" class="text-gray-600 hover:text-indigo-600 transition duration-300">Projects</a>
+                <a href="#certifications" class="text-gray-600 hover:text-indigo-600 transition duration-300">Certifications</a>
+                <a href="#contact" class="text-gray-600 hover:text-indigo-600 transition duration-300">Contact</a>
+            </div>
+            
+            <button class="md:hidden text-gray-600 hover:text-indigo-600 focus:outline-none hidden-print">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-gradient-to-r from-indigo-500 via-blue-500 to-indigo-600 text-white">
+        <div class="container mx-auto px-6 py-20 md:py-32 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 animate-fade-in">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+                    Hi, I'm <span class="text-yellow-300">Aditya Pandey</span>
+                </h1>
+                <h2 class="text-2xl md:text-3xl font-medium mb-6">B.Tech CSE Student & Full Stack Developer</h2>
+                <p class="text-lg md:text-xl mb-8">Passionate about building web applications, exploring AI/ML technologies, and solving real-world problems through code.</p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#projects" class="bg-white text-indigo-600 hover:bg-indigo-100 px-6 py-3 rounded-full font-medium transition duration-300 shadow-lg">
+                        View My Work
+                    </a>
+                    <a href="#contact" class="bg-transparent border-2 border-white hover:bg-white hover:text-indigo-600 px-6 py-3 rounded-full font-medium transition duration-300">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-0 flex justify-center animate-fade-in delay-200">
+                <div class="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white shadow-xl">
+                    <!-- This is a placeholder for profile image -->
+                    <div class="w-full h-full bg-indigo-400 flex items-center justify-center">
+                        <img src="https://raw.githubusercontent.com/Aditya2006p/Aditya2006p/main/assets/images/aditya-photo.png" alt="Aditya Pandey">
+                        <span class="text-6xl text-white"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center gradient-text">About Me</h2>
+            
+            <div class="flex flex-col md:flex-row items-center md:items-start gap-12">
+                <div class="md:w-1/2 animate-fade-in">
+                    <h3 class="text-2xl font-semibold mb-4">Who I Am</h3>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        I'm a dedicated second-year B.Tech Computer Science student at Graphic Era Hill University, passionate about exploring the digital world through code. My journey in technology is driven by curiosity and a desire to create solutions that make a difference.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        Currently, I'm focusing on mastering the MERN Stack while also exploring AI and ML technologies. I believe in continuous learning and pushing my boundaries to grow as a developer.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed">
+                        When I'm not coding, you might find me binge-watching the latest shows or exploring new technologies – because sometimes, the best debugging instincts come from unexpected places!
+                    </p>
+                </div>
+                
+                <div class="md:w-1/2 animate-fade-in delay-200">
+                    <h3 class="text-2xl font-semibold mb-4">My Focus Areas</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="bg-indigo-100 p-3 rounded-lg mr-4">
+                                <i class="fas fa-laptop-code text-indigo-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-medium mb-2">Web Development</h4>
+                                <p class="text-gray-600">Creating responsive and intuitive user interfaces with modern frameworks like React.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-indigo-100 p-3 rounded-lg mr-4">
+                                <i class="fas fa-robot text-indigo-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-medium mb-2">AI & Machine Learning</h4>
+                                <p class="text-gray-600">Exploring the world of artificial intelligence and its applications in solving complex problems.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-indigo-100 p-3 rounded-lg mr-4">
+                                <i class="fas fa-code text-indigo-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-medium mb-2">Software Development</h4>
+                                <p class="text-gray-600">Building robust applications with Python, C++, and Java that solve real-world challenges.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-indigo-100 p-3 rounded-lg mr-4">
+                                <i class="fas fa-server text-indigo-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-medium mb-2">Cloud Computing</h4>
+                                <p class="text-gray-600">Working with AWS and cloud technologies to build scalable and reliable applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center gradient-text">My Skills & Expertise</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Programming Languages -->
+                <div class="bg-white rounded-xl shadow-md p-6 animate-fade-in">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-indigo-100 p-3 rounded-lg mr-4">
+                            <i class="fas fa-code text-indigo-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold">Programming</h3>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">C++</span>
+                        <span class="skill-tag bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Python</span>
+                        <span class="skill-tag bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">JavaScript</span>
+                        <span class="skill-tag bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Java</span>
+                        <span class="skill-tag bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">HTML5</span>
+                        <span class="skill-tag bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">CSS3</span>
+                    </div>
+                </div>
+                
+                <!-- Web Technologies -->
+                <div class="bg-white rounded-xl shadow-md p-6 animate-fade-in delay-100">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-indigo-100 p-3 rounded-lg mr-4">
+                            <i class="fas fa-globe text-indigo-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold">Web Technologies</h3>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">React</span>
+                        <span class="skill-tag bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">Node.js</span>
+                        <span class="skill-tag bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">Bootstrap</span>
+                        <span class="skill-tag bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">RESTful APIs</span>
+                        <span class="skill-tag bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">Responsive Design</span>
+                    </div>
+                </div>
+                
+                <!-- Tools & Platforms -->
+                <div class="bg-white rounded-xl shadow-md p-6 animate-fade-in delay-200">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-indigo-100 p-3 rounded-lg mr-4">
+                            <i class="fas fa-tools text-indigo-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold">Tools & Platforms</h3>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">Git</span>
+                        <span class="skill-tag bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">GitHub</span>
+                        <span class="skill-tag bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">VS Code</span>
+                        <span class="skill-tag bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">Android Studio</span>
+                        <span class="skill-tag bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">AWS</span>
+                    </div>
+                </div>
+                
+                <!-- Advanced Technologies -->
+                <div class="bg-white rounded-xl shadow-md p-6 animate-fade-in delay-300">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-indigo-100 p-3 rounded-lg mr-4">
+                            <i class="fas fa-brain text-indigo-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold">Advanced Tech</h3>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">Artificial Intelligence</span>
+                        <span class="skill-tag bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">Machine Learning</span>
+                        <span class="skill-tag bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">Cloud Computing</span>
+                        <span class="skill-tag bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">Generative AI</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Skill Levels -->
+            <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 animate-fade-in delay-400">
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Technical Skills</h3>
+                    
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Web Development</span>
+                                <span class="text-sm text-gray-500">90%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="gradient-bg rounded-full h-2" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Python Programming</span>
+                                <span class="text-sm text-gray-500">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="gradient-bg rounded-full h-2" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">JavaScript & React</span>
+                                <span class="text-sm text-gray-500">80%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="gradient-bg rounded-full h-2" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">C++ & Data Structures</span>
+                                <span class="text-sm text-gray-500">75%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="gradient-bg rounded-full h-2" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Soft Skills</h3>
+                    
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Problem Solving</span>
+                                <span class="text-sm text-gray-500">95%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="gradient-bg rounded-full h-2" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Adaptability</span>
+                                <span class="text-sm text-gray-500">90%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="gradient-bg rounded-full h-2" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Teamwork</span>
+                                <span class="text-sm text-gray-500">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="gradient-bg rounded-full h-2" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Time Management</span>
+                                <span class="text-sm text-gray-500">80%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="gradient-bg rounded-full h-2" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center gradient-text">Education</h2>
+            
+            <div class="relative custom-timeline pl-12 animate-fade-in">
+                <!-- B.Tech -->
+                <div class="mb-12 relative">
+                    <div class="absolute -left-12 timeline-dot bg-indigo-600 w-10 h-10 rounded-full flex items-center justify-center">
+                        <i class="fas fa-graduation-cap text-white"></i>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl shadow-md p-6 border-l-4 border-indigo-600">
+                        <h3 class="text-xl font-bold mb-1">B.Tech in Computer Science and Engineering</h3>
+                        <p class="text-gray-600 mb-2">Graphic Era Hill University, Bhimtal</p>
+                        <p class="text-gray-500 mb-4">Jan 2023 - Dec 2027 (Expected)</p>
+                        <p class="text-gray-700">
+                            Currently pursuing my bachelor's degree with a focus on programming, data structures, algorithms, and system design. Actively involved in various technical projects and learning opportunities.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">Data Structures</span>
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">Algorithms</span>
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">Web Development</span>
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">DBMS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Class XII -->
+                <div class="mb-12 relative">
+                    <div class="absolute -left-12 timeline-dot bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center">
+                        <i class="fas fa-school text-white"></i>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl shadow-md p-6 border-l-4 border-blue-600">
+                        <h3 class="text-xl font-bold mb-1">Class XII (Senior Secondary)</h3>
+                        <p class="text-gray-600 mb-2">Nirmala Convent Sr. Sec. School, Kathgodam</p>
+                        <p class="text-gray-500 mb-4">Jan 2022 - Dec 2023</p>
+                        <p class="text-gray-700">
+                            Completed higher secondary education with a focus on Physics, Chemistry, Mathematics, and Computer Science, providing a strong foundation in analytical and computational skills.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Physics</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Chemistry</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Mathematics</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Computer Science</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Class X -->
+                <div class="relative">
+                    <div class="absolute -left-12 timeline-dot bg-teal-600 w-10 h-10 rounded-full flex items-center justify-center">
+                        <i class="fas fa-book text-white"></i>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl shadow-md p-6 border-l-4 border-teal-600">
+                        <h3 class="text-xl font-bold mb-1">Class X (Secondary)</h3>
+                        <p class="text-gray-600 mb-2">Nirmala Convent Sr. Sec. School, Kathgodam</p>
+                        <p class="text-gray-500 mb-4">Jan 2020 - Dec 2021</p>
+                        <p class="text-gray-700">
+                            Completed secondary education with a strong academic performance in a broad range of subjects including English, Hindi, Mathematics, Science, Social Science, and General Knowledge.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm font-medium">Mathematics</span>
+                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm font-medium">Science</span>
+                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm font-medium">English</span>
+                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm font-medium">Social Studies</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-center gradient-text">My Projects</h2>
+            <p class="text-lg text-gray-600 text-center mb-12 max-w-3xl mx-auto">
+                Here are some of the projects I've worked on. Each one has helped me grow as a developer and solve interesting problems.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fade-in">
+                <!-- AtmosphereApp -->
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-md">
+                    <div class="h-48 bg-gradient-to-r from-blue-400 to-indigo-500 flex items-center justify-center">
+                        <i class="fas fa-cloud-sun text-white text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">AtmosphereApp</h3>
+                        <p class="text-gray-600 mb-4">
+                            A sleek weather forecasting web application providing real-time weather updates for cities worldwide using the OpenWeather API.
+                        </p>
+                        <div class="mb-4 flex flex-wrap gap-2">
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">HTML</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">CSS</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">JavaScript</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">API</span>
+                        </div>
+                        <a href="https://github.com/Aditya2006p/AtmosphereApp" target="_blank" class="text-indigo-600 hover:text-indigo-800 font-medium flex items-center">
+                            <span>View on GitHub</span>
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- KeyForge Password Generator -->
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-md">
+                    <div class="h-48 bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center">
+                        <i class="fas fa-key text-white text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">KeyForge Password Generator</h3>
+                        <p class="text-gray-600 mb-4">
+                            A secure password generator designed to create strong, unique, and customizable passwords with adjustable complexity.
+                        </p>
+                        <div class="mb-4 flex flex-wrap gap-2">
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">HTML</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">CSS</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/Aditya2006p/KeyForge-Secure-Password-Generator" target="_blank" class="text-indigo-600 hover:text-indigo-800 font-medium flex items-center">
+                            <span>View on GitHub</span>
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- NeoCalc iOS -->
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-md">
+                    <div class="h-48 bg-gradient-to-r from-gray-800 to-gray-900 flex items-center justify-center">
+                        <i class="fas fa-calculator text-white text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">NeoCalc iOS</h3>
+                        <p class="text-gray-600 mb-4">
+                            A dark-themed, sleek calculator inspired by the iOS design, built with web technologies for a seamless experience.
+                        </p>
+                        <div class="mb-4 flex flex-wrap gap-2">
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">HTML</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">CSS</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">JavaScript</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">UI Design</span>
+                        </div>
+                        <a href="https://github.com/Aditya2006p/NeoCalc-iOS" target="_blank" class="text-indigo-600 hover:text-indigo-800 font-medium flex items-center">
+                            <span>View on GitHub</span>
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- QRify QR Code Generator -->
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-md">
+                    <div class="h-48 bg-gradient-to-r from-green-500 to-teal-500 flex items-center justify-center">
+                        <i class="fas fa-qrcode text-white text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">QRify QR Code Generator</h3>
+                        <p class="text-gray-600 mb-4">
+                            A web application designed to generate custom QR codes for URLs, text, and other types of data with ease.
+                        </p>
+                        <div class="mb-4 flex flex-wrap gap-2">
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">HTML</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">CSS</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">JavaScript</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">QR API</span>
+                        </div>
+                        <a href="https://github.com/Aditya2006p/QRify-QR-Code-Generator" target="_blank" class="text-indigo-600 hover:text-indigo-800 font-medium flex items-center">
+                            <span>View on GitHub</span>
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- TaskMaster To-Do List -->
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-md">
+                    <div class="h-48 bg-gradient-to-r from-yellow-400 to-orange-500 flex items-center justify-center">
+                        <i class="fas fa-tasks text-white text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">TaskMaster To-Do List</h3>
+                        <p class="text-gray-600 mb-4">
+                            A minimalistic to-do list application that helps organize and track daily tasks with local storage for persistence.
+                        </p>
+                        <div class="mb-4 flex flex-wrap gap-2">
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">HTML</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">CSS</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">JavaScript</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">Local Storage</span>
+                        </div>
+                        <a href="https://github.com/Aditya2006p/TaskMaster-To-Do-List" target="_blank" class="text-indigo-600 hover:text-indigo-800 font-medium flex items-center">
+                            <span>View on GitHub</span>
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- TicTacToe Master -->
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-md">
+                    <div class="h-48 bg-gradient-to-r from-pink-500 to-red-500 flex items-center justify-center">
+                        <i class="fas fa-gamepad text-white text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">TicTacToe Master</h3>
+                        <p class="text-gray-600 mb-4">
+                            A web-based version of the classic Tic-Tac-Toe game that supports both multiplayer and computer gameplay.
+                        </p>
+                        <div class="mb-4 flex flex-wrap gap-2">
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">HTML</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">CSS</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">JavaScript</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">Game Logic</span>
+                        </div>
+                        <a href="https://github.com/Aditya2006p/TicTacToe-Master" target="_blank" class="text-indigo-600 hover:text-indigo-800 font-medium flex items-center">
+                            <span>View on GitHub</span>
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="https://github.com/aditya2006p" target="_blank" class="gradient-bg text-white px-8 py-3 rounded-full font-medium inline-flex items-center shadow-lg hover:shadow-xl transition duration-300">
+                    <i class="fab fa-github mr-2"></i>
+                    <span>View All Projects on GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center gradient-text">Certifications</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 animate-fade-in">
+                <!-- Ethical Hacking -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200 hover:shadow-lg transition duration-300">
+                    <div class="bg-indigo-600 p-4 flex items-center justify-between">
+                        <h3 class="text-lg font-bold text-white">Ethical Hacking</h3>
+                        <i class="fas fa-shield-alt text-white text-xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-700 mb-4">Learn Ethical Hacking From Scratch 2024</p>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <i class="fas fa-building mr-2"></i>
+                            <span>Udemy</span>
+                        </div>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <i class="far fa-calendar-alt mr-2"></i>
+                            <span>September 2024</span>
+                        </div>
+                        <a href="https://www.udemy.com/certificate/UC-f1a03422-d186-48bd-b60b-6b4cb195d250/" target="_blank" class="text-indigo-600 hover:text-indigo-800 flex items-center text-sm font-medium">
+                            <span>View Certificate</span>
+                            <i class="fas fa-external-link-alt ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Version Control -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200 hover:shadow-lg transition duration-300">
+                    <div class="bg-blue-600 p-4 flex items-center justify-between">
+                        <h3 class="text-lg font-bold text-white">Version Control</h3>
+                        <i class="fas fa-code-branch text-white text-xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-700 mb-4">Version Control Systems and Git</p>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <i class="fas fa-building mr-2"></i>
+                            <span>Meta (Coursera)</span>
+                        </div>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <i class="far fa-calendar-alt mr-2"></i>
+                            <span>September 2024</span>
+                        </div>
+                        <a href="https://www.coursera.org/account/accomplishments/records/BH1C4W96BGIE" target="_blank" class="text-indigo-600 hover:text-indigo-800 flex items-center text-sm font-medium">
+                            <span>View Certificate</span>
+                            <i class="fas fa-external-link-alt ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Generative AI -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200 hover:shadow-lg transition duration-300">
+                    <div class="bg-teal-600 p-4 flex items-center justify-between">
+                        <h3 class="text-lg font-bold text-white">Generative AI</h3>
+                        <i class="fas fa-robot text-white text-xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-700 mb-4">Introduction to Generative AI Learning Path</p>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <i class="fas fa-building mr-2"></i>
+                            <span>Google Cloud Training (Coursera)</span>
+                        </div>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <i class="far fa-calendar-alt mr-2"></i>
+                            <span>September 2024</span>
+                        </div>
+                        <a href="https://www.coursera.org/account/accomplishments/specialization/FVK01WNX9LNY" target="_blank" class="text-indigo-600 hover:text-indigo-800 flex items-center text-sm font-medium">
+                            <span>View Certificate</span>
+                            <i class="fas fa-external-link-alt ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Responsible AI -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200 hover:shadow-lg transition duration-300">
+                    <div class="bg-purple-600 p-4 flex items-center justify-between">
+                        <h3 class="text-lg font-bold text-white">Responsible AI</h3>
+                        <i class="fas fa-brain text-white text-xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-700 mb-4">Responsible AI: Applying AI Principles with Google Cloud</p>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <i class="fas fa-building mr-2"></i>
+                            <span>Google Cloud Training (Coursera)</span>
+                        </div>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <i class="far fa-calendar-alt mr-2"></i>
+                            <span>September 2024</span>
+                        </div>
+                        <a href="https://www.coursera.org/account/accomplishments/records/LGDU0TJWHLL8" target="_blank" class="text-indigo-600 hover:text-indigo-800 flex items-center text-sm font-medium">
+                            <span>View Certificate</span>
+                            <i class="fas fa-external-link-alt ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- JavaScript -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200 hover:shadow-lg transition duration-300">
+                    <div class="bg-yellow-600 p-4 flex items-center justify-between">
+                        <h3 class="text-lg font-bold text-white">JavaScript</h3>
+                        <i class="fab fa-js text-white text-xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-700 mb-4">Programming with JavaScript</p>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <i class="fas fa-building mr-2"></i>
+                            <span>Meta (Coursera)</span>
+                        </div>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <i class="far fa-calendar-alt mr-2"></i>
+                            <span>September 2024</span>
+                        </div>
+                        <a href="https://www.coursera.org/account/accomplishments/records/R1PGKIHD42J0" target="_blank" class="text-indigo-600 hover:text-indigo-800 flex items-center text-sm font-medium">
+                            <span>View Certificate</span>
+                            <i class="fas fa-external-link-alt ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Large Language Models -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200 hover:shadow-lg transition duration-300">
+                    <div class="bg-red-600 p-4 flex items-center justify-between">
+                        <h3 class="text-lg font-bold text-white">LLMs</h3>
+                        <i class="fas fa-comment-dots text-white text-xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-700 mb-4">Introduction to Large Language Models</p>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <i class="fas fa-building mr-2"></i>
+                            <span>Google Cloud Skills Boost (Coursera)</span>
+                        </div>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <i class="far fa-calendar-alt mr-2"></i>
+                            <span>September 2024</span>
+                        </div>
+                        <a href="https://www.coursera.org/account/accomplishments/records/85GWVJ9UQPSH" target="_blank" class="text-indigo-600 hover:text-indigo-800 flex items-center text-sm font-medium">
+                            <span>View Certificate</span>
+                            <i class="fas fa-external-link-alt ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center animate-fade-in delay-300">
+                <a href="https://www.linkedin.com/in/aditya2006p/" target="_blank" class="text-indigo-600 hover:text-indigo-800 font-medium inline-flex items-center text-lg">
+                    <span>View All Certifications on LinkedIn</span>
+                    <i class="fab fa-linkedin ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-r from-indigo-600 to-blue-600 text-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 text-center">Let's Connect</h2>
+            <p class="text-lg text-center mb-12 max-w-3xl mx-auto">
+                I'm always open to new opportunities, collaborations, or just a friendly chat about technology and coding. Reach out through any of these channels!
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto animate-fade-in">
+                <!-- Email -->
+                <div class="bg-white bg-opacity-10 rounded-xl p-6 backdrop-filter backdrop-blur-sm border border-white border-opacity-20 text-center hover:bg-opacity-20 transition duration-300">
+                    <div class="bg-white text-indigo-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-envelope text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Email Me</h3>
+                    <p class="mb-4">Feel free to reach out via email</p>
+                    <a href="mailto:adityabro925@gmail.com" class="text-white hover:text-yellow-200 transition duration-300 font-medium">
+                        adityabro925@gmail.com
+                    </a>
+                </div>
+                
+                <!-- LinkedIn -->
+                <div class="bg-white bg-opacity-10 rounded-xl p-6 backdrop-filter backdrop-blur-sm border border-white border-opacity-20 text-center hover:bg-opacity-20 transition duration-300">
+                    <div class="bg-white text-indigo-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fab fa-linkedin-in text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">LinkedIn</h3>
+                    <p class="mb-4">Connect with me professionally</p>
+                    <a href="https://www.linkedin.com/in/aditya2006p/" target="_blank" class="text-white hover:text-yellow-200 transition duration-300 font-medium">
+                        linkedin.com/in/aditya2006p
+                    </a>
+                </div>
+                
+                <!-- GitHub -->
+                <div class="bg-white bg-opacity-10 rounded-xl p-6 backdrop-filter backdrop-blur-sm border border-white border-opacity-20 text-center hover:bg-opacity-20 transition duration-300">
+                    <div class="bg-white text-indigo-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fab fa-github text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">GitHub</h3>
+                    <p class="mb-4">Check out my code and projects</p>
+                    <a href="https://github.com/aditya2006p" target="_blank" class="text-white hover:text-yellow-200 transition duration-300 font-medium">
+                        github.com/aditya2006p
+                    </a>
+                </div>
+            </div>
+            
+            <div class="mt-16 max-w-2xl mx-auto bg-white bg-opacity-10 rounded-xl p-8 backdrop-filter backdrop-blur-sm border border-white border-opacity-20 animate-fade-in delay-200">
+                <h3 class="text-2xl font-bold mb-6 text-center">Send Me a Message</h3>
+                
+                <form action="#" method="POST" id="contact-form" class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium mb-2">Your Name</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-3 bg-white bg-opacity-10 border border-white border-opacity-20 rounded-lg focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50 text-white placeholder-white placeholder-opacity-60" placeholder="John Doe" required>
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block text-sm font-medium mb-2">Your Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-3 bg-white bg-opacity-10 border border-white border-opacity-20 rounded-lg focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50 text-white placeholder-white placeholder-opacity-60" placeholder="john@example.com" required>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label for="subject" class="block text-sm font-medium mb-2">Subject</label>
+                        <input type="text" id="subject" name="subject" class="w-full px-4 py-3 bg-white bg-opacity-10 border border-white border-opacity-20 rounded-lg focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50 text-white placeholder-white placeholder-opacity-60" placeholder="Project Collaboration">
+                    </div>
+                    
+                    <div>
+                        <label for="message" class="block text-sm font-medium mb-2">Message</label>
+                        <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 bg-white bg-opacity-10 border border-white border-opacity-20 rounded-lg focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50 text-white placeholder-white placeholder-opacity-60" placeholder="Your message here..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="w-full bg-white text-indigo-600 hover:bg-opacity-90 font-bold py-3 px-6 rounded-lg transition duration-300">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-8 md:mb-0">
+                    <h2 class="text-2xl font-bold mb-2">Aditya Pandey</h2>
+                    <p class="text-gray-400">B.Tech CSE Student & Developer</p>
+                </div>
+                
+                <div class="flex space-x-6">
+                    <a href="https://www.linkedin.com/in/aditya2006p/" target="_blank" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-linkedin-in text-xl"></i>
+                    </a>
+                    <a href="https://github.com/aditya2006p" target="_blank" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-github text-xl"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/Aditya2006p/" target="_blank" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fas fa-code text-xl"></i>
+                    </a>
+                    <a href="mailto:adityabro925@gmail.com" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fas fa-envelope text-xl"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <hr class="border-gray-800 my-8">
+            
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-500 text-sm mb-4 md:mb-0">
+                    &copy; 2025 Aditya Pandey. All rights reserved.
+                </p>
+                
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="#about" class="text-gray-500 hover:text-white text-sm transition duration-300">About</a>
+                    <a href="#skills" class="text-gray-500 hover:text-white text-sm transition duration-300">Skills</a>
+                    <a href="#projects" class="text-gray-500 hover:text-white text-sm transition duration-300">Projects</a>
+                    <a href="#education" class="text-gray-500 hover:text-white text-sm transition duration-300">Education</a>
+                    <a href="#certifications" class="text-gray-500 hover:text-white text-sm transition duration-300">Certifications</a>
+                    <a href="#contact" class="text-gray-500 hover:text-white text-sm transition duration-300">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Simple JavaScript for Form Submission Handling -->
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // In a real implementation, you would send the form data to a server
+            // For this demonstration, we'll just show an alert
+            alert('Thank you for your message! I will get back to you soon.');
+            
+            // Clear the form
+            this.reset();
+        });
+
+        // Simple animation on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const fadeElements = document.querySelectorAll('.animate-fade-in');
+            
+            fadeElements.forEach(function(element) {
+                element.style.opacity = '1';
+            });
+        });
+    </script>
+</body>
+</html>
