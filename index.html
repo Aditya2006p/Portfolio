@@ -897,6 +897,13 @@
         console.error(error);
       });
     });
+        document.addEventListener('DOMContentLoaded', function() {
+            const fadeElements = document.querySelectorAll('.animate-fade-in');
+            
+            fadeElements.forEach(function(element) {
+                element.style.opacity = '1';
+            });
+        });
     </script>
 </body>
 </html>
