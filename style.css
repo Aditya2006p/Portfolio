@@ -1,0 +1,106 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.section {
+    margin-bottom: 3rem;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #4F46E5, #06B6D4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.skill-badge {
+    transition: all 0.3s ease;
+}
+
+.skill-badge:hover {
+    transform: translateY(-5px);
+}
+
+.project-card {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.social-icon {
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+.timeline-container {
+    border-left: 2px solid #4F46E5;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.timeline-item:before {
+    content: "";
+    position: absolute;
+    left: -26px;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #4F46E5;
+}
+
+.badge-counter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #4F46E5;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.coding-profile-card {
+    transition: all 0.3s ease;
+}
+
+.coding-profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media print {
+    .page-break {
+        display: none;
+    }
+    
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+    
+    .container {
+        width: 100%;
+        max-width: none;
+    }
+}
