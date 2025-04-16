@@ -1,4 +1,3 @@
-/* Custom styles */
 body {
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
@@ -11,6 +10,7 @@ body {
 .gradient-text {
     background: linear-gradient(90deg, #4F46E5, #2563EB);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -85,4 +85,18 @@ body {
     .print-block {
         display: block !important;
     }
+}
+
+/* Mobile menu styles */
+#mobile-menu {
+    transition: transform 0.3s ease-in-out;
+    z-index: 50;
+}
+
+body.overflow-hidden {
+    overflow: hidden;
+}
+
+.mobile-menu-open {
+    transform: translateX(0) !important;
 }
