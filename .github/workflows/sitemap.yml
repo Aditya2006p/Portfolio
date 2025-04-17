@@ -9,17 +9,19 @@ jobs:
   sitemap:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Generate Sitemap
-      uses: cicirello/generate-sitemap@v1
-      with:
-        base-url-path: https://aditya2006p.github.io/
-        path-to-root: .
-        include-html: true
-    - name: Commit and Push
-      run: |
-        git config --global user.name "GitHub Action"
-        git config --global user.email "action@github.com"
-        git add sitemap.xml
-        git commit -m "Update sitemap" || echo "No changes to commit"
-        git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/Aditya2006p/Aditya2006p.github.io.git
+      - uses: actions/checkout@v2
+
+      - name: Generate Sitemap
+        uses: cicirello/generate-sitemap@v1
+        with:
+          base-url-path: https://aditya2006p.github.io/
+          path-to-root: .
+          include-html: true
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add sitemap.xml
+          git commit -m "Update sitemap" || echo "No changes to commit"
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/Aditya2006p/Aditya2006p.github.io.git
