@@ -34,3 +34,15 @@ jobs:
       - name: Notify Google of Updated Sitemap
         run: |
           curl "https://www.google.com/ping?sitemap=https://theadityapandey.github.io/sitemap.xml"
+
+      - name: Notify Bing of Updated Sitemap
+        run: |
+          curl "https://www.bing.com/webmaster/ping.aspx?siteMap=https://theadityapandey.github.io/sitemap.xml"
+
+      - name: Notify Yandex of Updated Sitemap
+        run: |
+          curl "https://webmaster.yandex.com/ping?sitemap=https://theadityapandey.github.io/sitemap.xml"
+
+      - name: Notify Baidu of Updated Sitemap
+        run: |
+          curl "http://data.zz.baidu.com/urls?site=https://theadityapandey.github.io/sitemap.xml&token=<YOUR_BAIDU_TOKEN>"
