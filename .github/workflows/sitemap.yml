@@ -17,7 +17,7 @@ jobs:
       - name: Generate Sitemap
         uses: cicirello/generate-sitemap@v1
         with:
-          base-url-path: https://aditya2006p.github.io/
+          base-url-path: https://theadityapandey.github.io/
           path-to-root: .
           include-html: true
 
@@ -27,4 +27,4 @@ jobs:
           git config --global user.email "action@github.com"
           git add sitemap.xml
           git commit -m "Update sitemap" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Aditya2006p/Aditya2006p.github.io.git
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/theadityapandey/theadityapandey.github.io.git
