@@ -20,7 +20,7 @@ jobs:
       - name: Generate base sitemap
         uses: cicirello/generate-sitemap@v1
         with:
-          base-url-path: https://theadityapandey.github.io/
+          base-url-path: https://adityapandey-dev.github.io/
           path-to-root: .
           include-html: true
           
@@ -48,12 +48,12 @@ jobs:
           main_url = None
           for url in root.findall('ns:url', ns):
             loc = url.find('ns:loc', ns)
-            if loc is not None and loc.text.endswith('index.html') or loc.text.endswith('/'):
+            if loc is not None and (loc.text.endswith('index.html') or loc.text.endswith('/')):
               main_url = loc.text.rstrip('index.html')
               break
           
           if not main_url:
-            main_url = "https://theadityapandey.github.io/"
+            main_url = "https://adityapandey-dev.github.io/"
           
           # Add section URLs
           today = datetime.now().strftime('%Y-%m-%d')
@@ -82,10 +82,10 @@ jobs:
           git config --global user.email "action@github.com"
           git add sitemap.xml
           git commit -m "Update enhanced sitemap with page sections" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/theadityapandey/theadityapandey.github.io.git
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/adityapandey-dev/adityapandey-dev.github.io.git
 
       - name: Notify Search Engines
         run: |
-          curl "https://www.google.com/ping?sitemap=https://theadityapandey.github.io/sitemap.xml"
-          curl "https://www.bing.com/webmaster/ping.aspx?siteMap=https://theadityapandey.github.io/sitemap.xml"
-          curl "https://webmaster.yandex.com/ping?sitemap=https://theadityapandey.github.io/sitemap.xml"
+          curl "https://www.google.com/ping?sitemap=https://adityapandey-dev.github.io/sitemap.xml"
+          curl "https://www.bing.com/webmaster/ping.aspx?siteMap=https://adityapandey-dev.github.io/sitemap.xml"
+          curl "https://webmaster.yandex.com/ping?sitemap=https://adityapandey-dev.github.io/sitemap.xml"
